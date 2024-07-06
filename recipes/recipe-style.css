@@ -1,6 +1,27 @@
 * {
     background-color: rgb(248, 234, 217);
-    padding-left: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    font-size: 18px;
+}
+
+nav {
+    flex: auto;
+    margin: 50px 2em;
+}
+
+article {
+    flex: 3 1 auto;
+    margin: 10px 10em;
+}
+
+.section {
+    margin-bottom: 10px;
+    padding: 40px;
 }
 
 h1 {
@@ -11,28 +32,29 @@ h1 {
     letter-spacing: 2px;
     font-size: 100px;
     opacity: 75%;
+    border: 5px solid white;
+    border-radius: 20px;
 }
 
-a:hover {
-    background-color: aquamarine;
-    color:darkblue;
+a {
+    color: darkorange;
+    font-weight: 100;
+    font-family: Helvetica, sans-serif;
 }
 
-#des,
-#ing,
-#ste,
-#note {
+#des,#ing,#ste,#note {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 2em;
 }
 
-#des {
-    color: darkcyan;
+.section img {
+    margin: 30px auto;
+    width: 50%;
 }
 
-#ing {
-    color: darkslategray;
-}
-
-#ste {
-    color: darkolivegreen;
+nav li {
+    margin: 10px;
 }
